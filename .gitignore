@@ -2,3 +2,6 @@
 build
 tags
 .editorconfig
+.git/**
+.github/**
+term2_sim_windows
