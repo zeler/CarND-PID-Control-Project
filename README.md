@@ -102,7 +102,7 @@ I tuned PID parameters manually by trial and error for this project. The algorit
   3. Slowly increment Tau_d, until the car stops to oscillate too much and starts to respond to curved road nicely.
   4. Repeat steps 2. and 3. to refine the values.
   5. Set Tau_i to a very small value and start to increase it slowly to help the controller to deal with systematic error.
-  6. Fine tune all parameters according to following table:
+  6. Fine tune all parameters according to following table (Source: Wikipedia):
    
 ![Pid tuning (Source: Wikipedia)](img/pid_tuning.PNG)
 
